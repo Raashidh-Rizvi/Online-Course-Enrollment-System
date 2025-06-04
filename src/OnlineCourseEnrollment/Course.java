@@ -19,6 +19,31 @@ public class Course {
         System.out.println("Course ID: " + courseID);
         System.out.println("Duration Weeks: " + durationWeeks);
     }
+
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+
+    public String getCourseID() {
+        return courseID;
+    }
+
+    public void setCourseID(String courseID) {
+        this.courseID = courseID;
+    }
+
+    public int getDurationWeeks() {
+        return durationWeeks;
+    }
+
+    public void setDurationWeeks(int durationWeeks) {
+        this.durationWeeks = durationWeeks;
+    }
+
     public double calculateTotalFee(){
         return 10000;
 

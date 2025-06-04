@@ -7,9 +7,10 @@ public class regularCourse extends Course {
         super(courseName, courseID, durationWeeks);
         this.hasLiveSession = false;
     }
-    public double calculateTotalFee(){
-
+    public double calculateTotalFee() {
+         return 100 * getDurationWeeks();
     }
+
 
 
 }
