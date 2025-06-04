@@ -1,4 +1,4 @@
-/*Create a subclass called RegularCourse that inherits from Course class and do
+/* Create a subclass called RegularCourse that inherits from Course class and do
  followings.
  i. Add an additional attribute hasLiveSessions (boolean) to indicate whether live
  sessions are included.
